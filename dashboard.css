@@ -256,6 +256,9 @@ table button:hover {
 }
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .normal {
+    display: none;
+  }
   .container {
     flex-direction: column;
   }
@@ -345,7 +348,9 @@ table button:hover {
   .container {
     flex-direction: column;
   }
-
+  .normal {
+    display: none;
+  }
   .sidebar {
     width: 100%;
     height: auto;
